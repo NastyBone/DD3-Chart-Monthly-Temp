@@ -1,0 +1,49 @@
+body, html {
+  background-color: silver;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+#description {
+  height: 530px;
+  width: 850px;
+  background-color: white;
+  box-shadow: 9px 9px 6px black;
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+
+.canvas {
+  height: 300px;
+  width: 720px;
+  border: 1px solid black;
+  padding: 30px;
+}
+
+h5 {
+  margin: 0;
+}
+
+#legend {
+  height: 35px;
+  width: 300px;
+  border: 1px solid black;
+  margin: 20px;
+}
+
+#tooltip {
+  height: 80px;
+  width: 200px;
+  position: absolute;
+  background-color: black;
+  border-radius: 10px;
+  opacity: 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
